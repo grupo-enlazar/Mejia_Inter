@@ -18,5 +18,5 @@ $validar = filter_var($email, FILTER_VALIDATE_EMAIL);
 if ($validar) {
     mail($para,$asunto,utf8_decode($mensaje),$header);
 }
-echo "informacion enviada correctamente";
+header('Location: envio.html');
 ?>
