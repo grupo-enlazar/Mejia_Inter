@@ -11,7 +11,7 @@ $mensaje = 'estos son los datos enviados desde el formulario:
 Nombre: '.$nombre.'
 Email: '.$email.'
 Mensaje: '.$mensaje;
-$para = "jonathan@enlazar.net";
+$para = "dmejia@mejiatelecom.com";
 $asunto = "contacto de ". $nombre;
 
 $validar = filter_var($email, FILTER_VALIDATE_EMAIL);
